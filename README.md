@@ -1,2 +1,2 @@
 # perihel-mirror.github.io
-Mirror
+Mirror von perihel.ch
