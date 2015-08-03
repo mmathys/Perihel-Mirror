@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Zusatz (Schwingungen)</title>
+<meta name="description" content="Repetitorium Zusatz (Schwingungen)">
+<meta name="author" content="Martin Lieberherr">
+<meta name="keywords" content="Martin, Lieberherr, Zusatz (Schwingungen), Differenzialgleichung, Überlagerung, Superposition, gekoppelte Schwingungen"> 
+</head>
+
+<body>
+<h3> Zusatz (Schwingungen) </h3>
+<br>
+<b>Differenzialgleichung des harmonischen Oszillators</b><br>
+Eine harmonische Schwingung erfüllt die Differenzialgleichung<br>
+d<sup>2</sup>y/dt<sup>2</sup> + &omega;<sub>0</sub><sup>2</sup> y = 0  (Bewegungsgleichung)<br>
+Die Lösung dieser Differenzialgleichung ist eine Funktion y(t) mit zwei freien Parametern: y(t) = A cos(&omega;<sub>0</sub>t+&phi;<sub>0</sub>) (Bahngleichung)<br>
+Beispiel: Der Strom in einem geschlossenen Stromkreis mit einem Kondensator der Kapazität C und einer Spule der Induktivität L erfüllt die Gleichung<br>
+d<sup>2</sup>i/dt<sup>2</sup> + (LC)<sup>-1</sup> i = 0<br>
+Der Strom schwingt also harmonisch mit Kreisfrequenz &omega;<sub>0</sub> = (LC)<sup>-1/2</sup>. <br>
+Beispiel: Aus F<sub>res</sub> = ma = m&middot;d<sup>2</sup>y/dt<sup>2</sup> erhält man für einen Körper an einer Feder (F = -ky) die Bewegungsgleichung<br>
+d<sup>2</sup>y/dt<sup>2</sup> + (k/m) y = 0<br>
+Der Körper schwingt also harmonisch mit Kreisfrequenz &omega;<sub>0</sub> = (k/m)<sup>1/2</sup>. <br>
+<br>
+<br>
+<b>Bestimmung von Nullphase und Amplitude</b><br>
+Aus den Startwerten y<sub>0</sub> = y(0) und v<sub>0</sub> = v(0) erhält man mit den Bahngleichungen folgendes Gleichungssystem:<br>
+y<sub>0</sub> = A cos(&phi;<sub>0</sub>)<br>
+v<sub>0</sub> = - A &omega;<sub>0</sub> sin(&phi;<sub>0</sub>)<br>
+Aus dem Verhältnis v<sub>0</sub>:y<sub>0</sub> kann man somit die Startphase berechnen und weiter die Startamplitude.<br>
+Falls die Schwingung mit v<sub>0</sub> = 0 startet, so ist es eine Cosinus- oder Minus-Cosinus-Schwingung, falls y<sub>0</sub> = 0 ist, so ist es eine Sinus- oder Minus-Sinus-Schwingung.<br>
+<br>
+<br>
+<b>Differenzialgleichung der gedämpften Schwingung</b><br>
+Die einfachste Bewegungsgleichung mit Dämpfung ist linear:<br>
+d<sup>2</sup>y/dt<sup>2</sup> + 2&delta;&middot;dy/dt + &omega;<sub>0</sub><sup>2</sup> y = 0 <br>
+Diese Differenzialgleichung folgt z.B. wenn bei einem Federpendel die Reibungskraft proportional zur Geschwindigkeit ist. Das typische Beispiel ist der LCR-Serieschwingkreis.<br>
+Die Lösung dieser Gleichung ist y(t) = A<sub>0</sub>&nbsp;e<sup>-&delta;&middot;t</sup>&nbsp;cos(&omega;t&nbsp;+&nbsp;&phi;<sub>0</sub>), falls die Dämpfungskonstante &delta; kleiner als die Kreisfrequenz &omega;<sub>0</sub> ist (sog. "schwache Dämpfung"). Die Kreisfrequenz der Schwingung ist 
+&omega; = (&omega;<sub>0</sub><sup>2</sup> - &delta;<sup>2</sup>)<sup>1/2</sup>. Sie liegt leicht tiefer als die Kreisfrequenz &omega;<sub>0</sub> der ungedämpften Schwingung. Falls die Dämpfung zu stark wird, schwingt der Oszillator nicht mehr.<br>
+<br>
+<br>
+<b>Erzwungene Schwingungen/Resonanz</b><br>
+Ein freier Oszillator schwingt mit der sogenannten Eigenfrequenz. Wird z.B. ein Fadenpendel zu Schwingungen angeregt, indem z.B. der Aufhängepunkt mit der Erregerfrequenz hin und her bewegt wird, so beginnt auch die Pendellinse zu schwingen. Sobald der Einschwingvorgang abgeklungen ist, schwingt die Pendellinse harmonisch mit der Erregerfrequenz. Die Antwortschwingung der Pendellinse hat meistens eine andere Amplitude und Phase als die Erregerschwingung. Wenn die Erregerfrequenz nahe bei der Eigenfrequenz liegt, kann die Amplitude der Antwortschwingung sehr gross werden (Resonanz)<br>
+<img src="Resonanz.jpg"  width="284" height="203" alt="Resonanz.jpg"><br>
+Je kleiner die Dämpfung, desto höher ist die Antwortamplitude bei Resonanz. Bei Resonanz hinkt die Antwortschwingung der Erregerschwingung eine Viertelperiode nach.<br>
+<br>
+<br>
+<b>Überlagerung von Schwingungen</b><br>
+Die Überlagerung zweier harmonischer Schwingungen gleicher Frequenz ergibt wieder eine harmonische Schwingung von derselben Frequenz. Die Amplitude der Summenschwingung liegt zwischen Null und der Summe der Summanden-Amplituden, je nach Phasenverschiebung zwischen den Summanden.<br>
+Die Überlagerung zweier harmonischer Schwingungen ähnlicher Frequenz ergibt "eine harmonische Schwingung mit der Mittelfrequenz, deren Amplitude regelmässig an und abschwillt" (Schwebung). Die Schwebungsfrequenz ist die Differenz der Einzelfrequenzen. Sie entspricht der Frequenz der hörbaren Lautstärkevariation, wenn man zwei leicht verstimmte Stimmgabeln gleichzeitig anschlägt.<br>
+Die Überlagerung unendlich vieler Schwingungen, deren Frequenzen ganzzahlige Vielfache einer tiefsten Frequenz (Grundfrequenz) sind, ist eine periodische Funktion. Jede periodische Funktion kann in dieser Weise als unendliche Summe von harmonischen Schwingungen dargestellt werden (Satz von Fourier). Die Zerlegung einer Funktion in harmonische Schwingungen heisst Fourieranalyse, die Bildung der Funktion aus den Teilschwingungen wird Fouriersynthese genannt.<br>
+Schwingt ein Punkt gleichzeitig entlang zueinander senkrechter Richtungen, so entstehen Lissajous-Figuren, falls die Frequenzen in einem rationalen Verhältnis zueinander stehen. So lässt sich z.B. kontrollieren, ob eine zweite Schwingung genau die doppelte Frequenz einer ersten Schwingung hat.<br>
+<br>
+<br>
+<b>Gekoppelte Schwingungen</b><br>
+Sind zwei Pendel schwach miteinander gekoppelt und wird eines angestossen, so wandert Schwingungsenergie von einem Pendel zum anderen und wieder zurück. Diese komplizierte Bewegung kann als Überlagerung von Eigenschwingungen dargestellt werden.<br>
+An z.B. einer Pendelkette kann man erkennen, dass die Schwingungsenergie in der Art einer Welle wandert, und zwar umso schneller, je stärker die Kopplung ist, und umso langsamer, je träger die Pendel sind.<br>
+Sind N Pendel miteinander gekoppelt, so treten N Eigenschwingungen auf. Ein makroskopischer Körper kann als viele gekoppelte Atome aufgefasst werden. Die niederfrequenten Eigenschwingungen heissen Biegeschwingungen, die hochfrequenten sind Wärmebewegungen.<br>
+<br>
+<br>
+<br>
+letzte Änderung: 9. Juli 2008 / Lie.<br>
+<br>
+Zur&uuml;ck zur <a href="../../index.htm"> Startseite </a> des Repetitoriums<br>
+</body>
+</html>

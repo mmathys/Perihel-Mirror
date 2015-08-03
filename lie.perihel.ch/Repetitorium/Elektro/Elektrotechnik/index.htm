@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Elektrotechnik</title>
+<meta name="description" content="Repetitorium Elektrotechnik">
+<meta name="author" content="Martin Lieberherr">
+<meta name="keywords" content="Martin, Lieberherr, Elektrotechnik, Wechselspannung, Effektivwert"> 
+</head>
+
+<body>
+<h3> Elektrotechnik </h3>
+
+<b>Harmonische Wechselspannung</b><br>
+Eine zeitabhängige Spannung ist harmonisch, wenn sie mit folgender Gleichung beschrieben werden kann:<br>
+<br>
+<table border="1">
+	<tr>
+		<td> u(t) = û&middot;cos(&omega;t+&phi;<sub>1</sub>) </td>
+	</tr>
+</table><br>
+wobei u(t) der Momentanwert der Spannung, û der Spitzenwert (Amplitude), &omega; die Kreisfrequenz, t der Zeitpunkt und &phi;<sub>1</sub> die Anfangsphase (Nullphase, Startphase) darstellt. Die momentane Phase &phi;(t) = &omega;t+&phi;<sub>1</sub> und die Anfangsphase &phi;<sub>1</sub> werden in Radiant gemessen. Die Kreisfrequnz &omega; ist proportional zur Frequenz f und umgekehrt proportional zur Schwingungsdauer T:<br>
+<table border="1">
+	<tr>
+		<td>&omega; = 2&pi;f = 2&pi;/T</td>
+	</tr>
+</table><br>
+Die Spannung, die man an einer Haushaltsteckdose messen kann, ist in guter Näherung eine harmonische Wechselspannung, weil sie mit einem Wechselspannungsgenerator hergestellt wurde.<br>
+<br>
+<table border="1">
+	<tr>
+		<td>Haushaltspannung: f = 50 Hz</td>
+	</tr>
+</table><br>
+<br>
+<b>Generatoren</b><br>
+Ein Wechselstromgenerator besteht im wesentlichen aus einer Spule, die in einem homogenen Magnetfeld gleichmässig gedreht wird oder aus einem Magneten, der in einer Spule gleichmässig gedreht wird. Dann wird eine harmonische Wechselspannung induziert. Leistungsstarke Generatoren erzeugen das Magnetfeld für den Betrieb selber (dynamo-elektrisches Prinzip). Der Antrieb erfolgt z.B. durch eine Turbine, die von Dampf, Gas oder Wasser angetrieben wird.<br>
+Einige Elektromotoren werden zu Generatoren, wenn man sie antreibt.<br>
+<br>
+<br>
+<b>Wechselstrom</b><br>
+Legt man eine harmonische Wechselspannung an einen ohmschen Widerstand, so fliesst ein harmonischer  Wechselstrom i(t):<br>
+ i(t) = î&middot;cos(&omega;t+&phi;<sub>2</sub>)<br>
+Der Wechselstrom hat dieselbe Frequenz wie die Spannung und dieselbe Anfangsphase (&phi;<sub>2</sub> = &phi;<sub>1</sub>), d.h. Strom und Spannung sind in Phase. Die Stromamplitude berechnet man via den Widerstand: î = û / R. <br>
+<br>
+Bei nicht-ohmschen Widerständen ist der Wechselstrom zwar periodisch, aber nicht harmonisch. Der Strom enthält Oberschwingungen. Bei Spulen und Kondensatoren ist der Strom zeitlich gegen die Spannung verschoben.<br>
+<br>
+<br>
+<b>Effektivwert</b><br>
+Die momentane Leistung ist p(t) = u(t)&middot;i(t). Meist ist man aber nur am zeitlichen Mittelwert interessiert. Der Effektivwert einer Wechselspannung ist jener Gleichspannungswert, der im Durchschnitt dieselbe Heizleistung mit einem ohmschen Widerstand erzeugt (analog: effektive Stromstärke).<br>
+<table border="1">
+	<tr>
+		<td>U<sub>eff</sub> = û/&radic;2<br>
+I<sub>eff</sub> = î/&radic;2</td>
+	</tr>
+</table><br>
+<br>
+Der Index <sub>eff</sub> wird oft weggelassen, man erkennt Effektivwerte an den Grossbuchstaben. Sofern nichts anderes gesagt wird, sind Angaben meist Effektivwerte.<br>
+<br>
+<table border="1">
+	<tr>
+		<td>Haushaltspannung: U = 230 V</td>
+	</tr>
+</table><br>
+<br>
+<br>
+<b>Transformator</b><br>
+Transformatoren sind Geräte, die Wechselspannungen umformen (transformieren) können. <br>
+<br>
+<img src="trafo578x313.gif"  width="578" height="313" alt="trafo578x313.gif"><br>
+<br>
+Ein Transformator besteht aus zwei Spulen mit N<sub>1</sub> (Primärspule) und N<sub>2</sub> (Sekundärspule) Windungen auf einem gemeinsamen Kern aus lamelliertem Eisenblech. Das Blech hat den Zweck, das Magnetfeld zu kanalisieren. <br>
+Legt man an die Primärspule eine (effektive) Wechselspannung U<sub>1</sub> an, so misst man an der unbelasteten Sekundärspule die Spannung U<sub>2</sub> = U<sub>1</sub>&middot;N<sub>2</sub>/N<sub>1</sub>. Auf der Seite mit mehr Windungen liegt die höhere Spannung an. Ein voll belasteter, technischer Transformator hat nur wenige Prozent Verluste. Dann gilt für die Ströme: U<sub>1</sub>I<sub>1</sub> = U<sub>2</sub>I<sub>2</sub> oder I<sub>1</sub>/I<sub>2</sub> = N<sub>2</sub>/N<sub>1</sub>. Auf der Seite mit mehr Windungen fliesst der kleinere Strom (gilt nur bei maximaler Belastung).<br>
+<br>
+<br>
+<b>Elektrisches Versorgungsnetz</b><br>
+Nach P = UI = R&middot;I<sup>2</sup> ist es besser, elektrische Energie mit Hochspannung zu transportieren, um die Leitungsverluste über grosse Distanzen gering zu halten. Vom Kraftwerk wird die Spannung hochtransformiert (z.B. auf 230/400 kV) und dann bei den Verbrauchern in mehreren Stufen wieder heruntertranformiert.<br>
+<br>
+<br>
+Ergänzungen: <a href="Impedanz.htm">Impedanz</a><br>
+<br>
+last update: 16. Juni 2008 / Lie.<br>
+<br>
+Zur&uuml;ck zur <a href="../../index.htm"> Startseite </a> des Repetitoriums<br>
+</body>
+</html>
