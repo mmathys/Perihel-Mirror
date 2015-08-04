@@ -2,4 +2,4 @@
 
 Mirror von [perihel.ch](http://perihel.ch)
 
-`chmod +x dl-all && ./dl-all` um das ganze archiv zu downloaden -> pull request
+##[Download](https://github.com/mmathys/Perihel-Mirror/archive/master.zip)
