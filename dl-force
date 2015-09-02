@@ -1,0 +1,11 @@
+wget \
+     -O \
+     --recursive \
+     --no-clobber \
+     --page-requisites \
+     --html-extension \
+     --convert-links \
+     --restrict-file-names=windows \
+     --domains perihel.ch \
+     --no-parent \
+         di.perihel.ch be.perihel.ch by.perihel.ch ga.perihel.ch ke.perihel.ch kr.perihel.ch lie.perihel.ch ru.perihel.ch bl.perihel.ch
